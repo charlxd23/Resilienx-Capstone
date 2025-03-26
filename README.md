@@ -6,23 +6,23 @@ ResilienX is designed to enhance awareness and preparedness for cybersecurity th
 
 ## 🚀 Features
 
-##Gamified Learning Experience: Engaging game-like elements to make learning enjoyable.
+**Gamified Learning Experience:** Engaging game-like elements to make learning enjoyable.
 
-Cybersecurity Threat Simulations: Realistic scenarios to practice responding to cybersecurity threats.
+**Cybersecurity Threat Simulations:** Realistic scenarios to practice responding to cybersecurity threats.
 
-Disaster Preparedness Modules: Comprehensive training on various natural disasters and response strategies.
+**Disaster Preparedness Modules:** Comprehensive training on various natural disasters and response strategies.
 
-Interactive Quizzes and Challenges: Assess knowledge retention with instant feedback.
+**Interactive Quizzes and Challenges:** Assess knowledge retention with instant feedback.
 
-Progress Tracking: Monitor learning progress and achievements.
+**Progress Tracking:** Monitor learning progress and achievements.
 
-Community Engagement: Features for users to interact, share experiences, and discuss topics.
+**Community Engagement:** Features for users to interact, share experiences, and discuss topics.
 
-Resource Library: Access to articles, videos, and guides on cybersecurity and disaster preparedness.
+**Resource Library:** Access to articles, videos, and guides on cybersecurity and disaster preparedness.
 
-Notifications and Reminders: Alerts for new content and upcoming quizzes or events.
+**Notifications and Reminders:** Alerts for new content and upcoming quizzes or events.
 
-Customizable User Profiles: Users can showcase their achievements and learning progress.
+**Customizable User Profiles:** Users can showcase their achievements and learning progress.
 
 ## 👥 Contributors
 - Charlie C. Abanico
