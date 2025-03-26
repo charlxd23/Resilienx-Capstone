@@ -1,0 +1,42 @@
+name: Deploy to Environments
+
+on:
+  push:
+    branches:
+      - main
+      - development
+      - CHARLIE
+      - RYLEE
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        environment: [Dev, Staging, Production]
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Deploy to Environment
+        env:
+          ENVIRONMENT: ${{ matrix.environment }}
+        run: |
+          echo "Deploying to $ENVIRONMENT environment"
+          if [ "$ENVIRONMENT" == "Dev" ]; then
+            echo "Deploying to Dev"
+          elif [ "$ENVIRONMENT" == "Staging" ]; then
+            echo "Deploying to Staging"
+          elif [ "$ENVIRONMENT" == "Production" ]; then
+            echo "Deploying to Production"
+          fi
