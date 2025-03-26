@@ -6,7 +6,7 @@ ResilienX is designed to enhance awareness and preparedness for cybersecurity th
 
 ## 🚀 Features
 
-Gamified Learning Experience: Engaging game-like elements to make learning enjoyable.
+##Gamified Learning Experience:## Engaging game-like elements to make learning enjoyable.
 
 Cybersecurity Threat Simulations: Realistic scenarios to practice responding to cybersecurity threats.
 
