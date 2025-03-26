@@ -10,9 +10,10 @@ ResilienX is designed to enhance awareness and preparedness for cybersecurity th
 - Disaster preparedness modules
 - Interactive quizzes and challenges
 
-- ## 📂 Folder Structure
+## 👥 Contributors
+- Charlie C. Abanico
+- Rylee Xzander L. Abueg
+- Francis Maurice E. Jose
+- Bryan S. Malihan
+- Gwyneth A. Yolangco
 
-## 🔧 Installation
-1. Clone this repository:
-   ```sh
-   git clone https://github.com/charlxd23/Resilienx-Capstone.git
