@@ -1,0 +1,14 @@
+[33m8c7ef76[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/learn-module[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merged login branch into main
+[33mb640fc7[m[33m ([m[1;31morigin/login-signup[m[33m, [m[1;32mlogin-signup[m[33m, [m[1;32mlogin[m[33m)[m initial commit
+[33mc2223e1[m[33m ([m[1;31morigin/forgot-password[m[33m)[m Delete .github/workflows directory
+[33mdb5aaf3[m Delete charlie
+[33m4b0d923[m Create charlie
+[33m9892ce2[m Update deployment.yml
+[33m0c581c9[m Update README.md
+[33m37a1256[m Update README.md
+[33ma90fddb[m Update README.md
+[33me715010[m Update README.md
+[33mc055639[m Update README.md
+[33me60ab3d[m Update README.md
+[33md471c17[m Create deployment.yml
+[33m79a301f[m Initial commit
