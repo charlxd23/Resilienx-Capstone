@@ -8,17 +8,29 @@
     android:background="@color/white"
     tools:context=".MainActivity">
 
+
+    <ImageView
+        android:id="@+id/bgupicon"
+        android:layout_width="181dp"
+        android:layout_height="155dp"
+        android:src="@drawable/bgup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
     <TextView
         android:id="@+id/logoText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="152dp"
         android:fontFamily="sans-serif-black"
         android:text="Logo"
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -128,6 +140,18 @@
             android:layout_height="50dp"
             android:src="@drawable/facebook" />
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bgdownicon"
+        android:layout_width="182dp"
+        android:layout_height="122dp"
+        android:src="@drawable/bgdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/versionText"

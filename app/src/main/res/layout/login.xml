@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+git fetch origin<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,11 +7,6 @@
     android:fillViewport="true"
     android:background="@color/white">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="20dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/main"
@@ -20,21 +15,33 @@
             tools:context=".LoginActivity">
 
 
-    <TextView
-        android:id="@+id/logoText"
-        android:layout_width="96dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="120dp"
-        android:text="Logo"
-        android:textColor="#000"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.56"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <ImageView
+                android:id="@+id/bgupicon"
+                android:layout_width="165dp"
+                android:layout_height="121dp"
+                android:src="@drawable/bgup"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
+            <TextView
+                android:id="@+id/logoText"
+                android:layout_width="96dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="132dp"
+                android:text="Logo"
+                android:textColor="#000"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
         android:id="@+id/appName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -163,7 +170,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/forgotPassword" />
-</androidx.constraintlayout.widget.ConstraintLayout>
-    </LinearLayout>
 
-</ScrollView>
+            <ImageView
+                android:id="@+id/bgdownicon"
+                android:layout_width="154dp"
+                android:layout_height="98dp"
+                android:src="@drawable/bgdown"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>

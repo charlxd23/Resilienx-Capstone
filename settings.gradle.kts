@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Resilienx"
 include(":app")
- 
+include(":learn")
